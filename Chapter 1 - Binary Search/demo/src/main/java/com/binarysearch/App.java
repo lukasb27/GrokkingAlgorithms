@@ -42,4 +42,16 @@ public class App
         // If the item isnt in the array, return -1 to indicate its not there.
         return -1;
     }
+
+    public static int simpleSearch(int[] Numbers, int wantedNumber)
+    {
+        // Loop through the numbers array till you get the correct answer.
+        for (int i = 0; i < Numbers.length; i++) {
+            if (Numbers[i] == wantedNumber) {
+                return i;
+            }
+        }
+        // If the item isnt in the array, return -1 to indicate its not there.
+        return -1;
+    }
 }

@@ -1,1 +1,5 @@
 */maven-status/*
+*/target/*
+.vscode
+*/*/target/*
+
